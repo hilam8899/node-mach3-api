@@ -1,5 +1,5 @@
 # node-mach3-api
-<br>Mach3 CNC Software Interface for Nodejs. 
+Mach3 CNC Software Interface for Nodejs. 
 <br>Uses edge-js for accessing Mach3 SDK.
 
 # Installation

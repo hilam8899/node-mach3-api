@@ -5,7 +5,7 @@ Mach3 CNC Software Interface for Nodejs.
 # Installation
 Run Mach3Registry.reg as administrator in order to use Mach3 SDK.
 
-# Useage
+# Usage
 Functions:
     <ul>
     <li>getCoordinates(null): Returns object of machine and work position</li>

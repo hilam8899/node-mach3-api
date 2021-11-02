@@ -7,8 +7,10 @@ Run Mach3Registry.reg as administrator in order to use Mach3 SDK.
 
 # Useage
 Functions:
-    *getCoordinates(null) 
-    *getOEMDRO(int number)
+    <ul>
+    <li>getCoordinates(null) </li>
+    <li>getOEMDRO(int number)</li>
+    </ul>
 
 Example:
 

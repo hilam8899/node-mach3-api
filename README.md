@@ -10,6 +10,7 @@ Functions:
     <ul>
     <li>getCoordinates(null): Returns object of machine and work position</li>
     <li>getOEMDRO(int number): Returns value of given DRO</li>
+    <li>getGCode(null): Returns loaded gCode as array of lines</li>
     </ul>
 
 Example:

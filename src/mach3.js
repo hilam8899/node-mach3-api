@@ -78,8 +78,48 @@ var getOEMDRO = edge.func({
 });
 
 
+var getGCode = edge.func({
+    source: function() {
+        /*
+            using System.Threading.Tasks;
+            using System.Runtime.InteropServices;
+            using Mach4;
+
+            public class Startup
+            {
+                IMach4 mach3;
+                IMyScriptObject mach3Inst;
+
+                public async Task<object> Invoke(object input)
+                {
+                    mach3 = (IMach4)Marshal.GetActiveObject("Mach4.Document");
+                    mach3Inst = (IMyScriptObject)mach3.GetScriptDispatch();
+
+                    var gcodePath = mach3Inst.GetLoadedGCodeDir();
+                    var gcodeFileName = mach3Inst.GetLoadedGCodeFileName();
+                    if(gcodeFileName != "")
+                    {
+                        var gCodeFilePath = gcodePath + gcodeFileName;
+                        var gCodeLines = System.IO.File.ReadAllLines(gCodeFilePath);
+
+                        return gCodeLines;
+                    }
+                    else
+                    {
+                        return "";
+                    }
+                }
+            }
+
+        */
+    },
+    references: [sdk]
+});
+
+
 
 module.exports = {
     getCoordinates,
-    getOEMDRO
+    getOEMDRO,
+    getGCode
 }

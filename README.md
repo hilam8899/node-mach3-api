@@ -15,9 +15,9 @@ Functions:
 Example:
 
 ```Javascript
-//get current X offset
 var mach3 = require("./src/mach3");
 
+//get current X offset
 mach3.getOEMDRO(800, (error, data) => {
     if (error) throw error;
     console.log(data);

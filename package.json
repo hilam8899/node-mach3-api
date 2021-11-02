@@ -1,0 +1,22 @@
+{
+  "name": "mach3-api",
+  "version": "1.0.0",
+  "description": "Mach3 CNC Software Interface for NodeJS",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanneumeister/node-mach3-api.git"
+  },
+  "author": "Stefan Neumeister",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefanneumeister/node-mach3-api/issues"
+  },
+  "homepage": "https://github.com/stefanneumeister/node-mach3-api#readme",
+  "dependencies": {
+    "edge-js": "^16.6.0"
+  }
+}

@@ -8,8 +8,8 @@ Run Mach3Registry.reg as administrator in order to use Mach3 SDK.
 # Useage
 Functions:
     <ul>
-    <li>getCoordinates(null) </li>
-    <li>getOEMDRO(int number)</li>
+    <li>getCoordinates(null): Returns object of machine and work position</li>
+    <li>getOEMDRO(int number): Returns value of given DRO</li>
     </ul>
 
 Example:
